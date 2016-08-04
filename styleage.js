@@ -1,3 +1,7 @@
+// NOTA:
+// Para crear la visualizacion desde 
+// javaScript y no desde html recuerdo que he de hacerlo con "append" escribiendo dentro los tag
+// para poder generar de esta manera el view, engo que esturiarlo
 
 // Gato 01
 var count = 0;
