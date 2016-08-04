@@ -1,9 +1,24 @@
 var count = 0;
 
-$("#image").click(function() {
+$("#image").on('click',function() {
     count++;
-    $("#counter").html("your count: "+count);
+    $("#counter").html("clicks count: "+count);
 });
+
+var count02 = 0;
+
+$("#image02").on('click',function() {
+    count02++;
+    $("#counter02").html("clicks count: "+count02);
+});
+
+// var count02 = 0;
+
+// $("#image02").click(function() {
+//     count++;
+//     $("#counter").html("your count: "+count);
+// });
+
 
 //......................................
 
