@@ -31,15 +31,21 @@ $("#image02").on('click',function() {
 /*
 ---------EJERCICIO 03 / / array de gatos--------
 */
+	function addCatToList(cat){
 
+		$cat.forEach (function(element){
+		
+		$('.cat_list').append('<li>' + cat.name + '</li>')
+
+		})
+	}
 
 var Cat = function(name){
 this.name = name;
 }
 
-var cats = ["Roco", "Lucca", "Mos", "Cuti"]
-
-
+var cats = ["Roco", "Lucca", "Mos", "Cuti"];
+cats.sort();
 
 
 var cat01 = new Cat("Roco"); 
